@@ -3,5 +3,11 @@ html(lang="en")
     include head
     body 
         h1 Index pug
-        a(href="/contact") head page 
+        a(href="/contact") head page
+
+        - let school = 'Change IT academy'
+        - let name = 'Jack'
+
+        p  My name is #{name}, I'm study in #{school}
         include footer
+
